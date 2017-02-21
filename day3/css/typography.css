@@ -1,0 +1,44 @@
+html {
+    font-size: 10px;
+} 
+
+body {
+    margin: 0;
+    /*가이드라인(Baseline)*/
+    background-image: url(../images/leading-24px.png);
+    font-family: "Spoqa Han Sans";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: -0.015em;
+    color: #010101;
+}
+
+.container {
+    width: 1000px;
+    height: 100vh;
+    background-color: rgba(221, 221, 221, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 본문(단란) 디자인*/
+p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+/*제목 디자인*/
+h1,h2,h3,h4,h5,h6{ 
+    margin-top: 0; 
+    margin-bottom: 2.4rem;
+    letter-spacing: -0.07em;
+     }
+h1,h2,h3,h4{
+    font-weight: 300;
+}
+h6 {line-height: 2.4rem; font-size: 2rem;}
+h5 {line-height: 2.4rem; font-size: 2.5rem;}
+h4 {line-height: 4.8rem; font-size: 3.125rem;}
+h3 {line-height: 4.8rem; font-size: 3.906rem;}
+h2 {line-height: 4.8rem; font-size: 4.883rem;}
+h1 {line-height: 7.2rem; font-size: 6.104rem;}
